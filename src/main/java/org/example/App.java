@@ -17,7 +17,7 @@ public class App
         final String password = "abc$123";
 
         //scanning password attempt from user
-        System.out.println("What is the password? ");
+        System.out.print("What is the password? ");
         String attempt = sc.nextLine();
 
         //returns 0 if they are same
